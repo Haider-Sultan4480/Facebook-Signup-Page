@@ -1,0 +1,149 @@
+body{
+    width: 100%;
+    background-color: #f0f2f5;
+}
+
+button[type="submit"] {
+    background-color: #1877f2; /* Facebook blue color */
+    color: white;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 105%; /* Make the button the same width as textboxes */
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button[type="button"] {
+    background-color: #42b72a; /* Facebook blue color */
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 60%; /* Make the button the same width as textboxes */
+    margin-bottom: 5px;
+    display: block; /* Make it a block element */
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+
+html, body {
+    overflow: hidden;
+}
+
+/* Rest of your existing CSS code here */
+
+button[type="submit"]:hover {
+    background-color: #0a54b4; /* Darker blue on hover */
+}
+button[type="button"]:hover {
+    background-color: #5edf45; /* Darker blue on hover */
+}
+
+
+
+
+#input[type="text"],
+#input[type="password"] {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 95%;
+    margin-bottom: 18px;
+    font-family: Arial, sans-serif;
+    font-size: 15px; 
+    font-weight: normal;
+    transition: border-color 0.3s; /* Add a transition for smooth color change */
+}
+
+/* Style when the input is focused (clicked or typing) */
+#input:focus {
+    border-color: #007bff; /* Change the border color to blue when focused */
+}
+    
+
+
+
+form{
+    background-color: #fff;
+    position: absolute;
+    width: 350px;
+    height: 270px;
+    padding: 17px 30px 60px 17px;
+    margin: 20vh 775px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 6px -7px;
+}
+
+.f-pws { /* If this is a class selector, add a period before the class name */
+    display: block;
+    width: 200px;
+    margin: auto;
+    color: #1877f2;
+    padding-left: 80px ;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+
+.line {
+    
+    border-top: 1px solid #222;
+    opacity: 0.2;
+    position: relative; /* Add relative positioning */
+    right: -5x;
+    width: 104%;
+}
+
+
+.sub-link h5 {
+    width: 270px;
+    color: black;
+    position: relative;
+    font-family: "Segoe UI", Arial;
+    padding: 130px 870px;
+    font-size: 12px;
+    font-weight: 600;
+    margin: -5vh;
+    
+}
+
+.sub-link h5 a {
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.f-container {
+    
+    margin-left: 150px;
+    margin-top: 25vh;
+  
+}
+
+.para{
+    width: 550px;
+    margin-left: 150px;
+    margin-top: -5vh;
+    font-family: "Segoe UI", Roboto, "San Francisco";
+    font-size: 30px;
+}
+
+/* Style for the image */
+.f-container img {
+    max-width: 300px; /* Ensure the image scales within its container */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+
+/* Add a gray color line under the link */
+
+
+
